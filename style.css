@@ -29,6 +29,15 @@ p.hero-paragraph {
     font-size: 17px;
 }
 
+.text-align-justify {
+    text-align: justify;
+}
+
+
+/* p.hero-paragraph::first-letter {
+    font-weight: 700;
+} */
+
 .hero-h1 {
     color: var(--dark-green);
 }
@@ -37,20 +46,55 @@ p.hero-paragraph {
     color: var(--light-green);
 }
 
+/* BUTTON */
+.btn-outline {
+    border-radius: 10px;
+    border: 2px solid #D2D2D2;
+    text-align: center;
+    align-items: center;
+}
+
+.tags {
+    background: var(--primary-green);
+    margin: 0 10px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.tags img {
+    height: 40px;
+    width: 100%;
+}
 
 /* LOGO */
 .header-logo-2 img {
     width: 100px;
 }
 
+
+
 /* MEDIA QUERYES RESPONSIVE */
 @media (max-width: 576px) {
+    #badge-1 {
+        text-align: center !important;
+    }
+
+    #badge-2 {
+        margin-top: 40px;
+        margin-right: -20%;
+        width: 50%;
+    }
+
+    #sosmed-badge img {
+        width: 300px !important;
+    }
+
     .header-logo-1 img {
         width: 100% !important;
     }
 
     .header-logo-2 img {
-        width: 60px;
+        width: 300px;
     }
 
     .main-order {
@@ -69,6 +113,23 @@ p.hero-paragraph {
     .container {
         margin: 0% 1% !important;
     }
+
+    footer {
+        position: relative;
+        left: 0;
+        right: 0;
+        padding-right: 0;
+        text-align: center;
+        width: 100%;
+        margin: auto !important;
+    }
+}
+
+
+footer {
+    position: absolute;
+    right: 0;
+    width: 60%;
 }
 
 /* FLOAT */
