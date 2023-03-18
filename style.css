@@ -108,12 +108,15 @@ button:hover {
     }
 
     #sosmed-badge button.btn {
-        padding: 0 !important;
+        padding: 1px !important;
         margin: 0 5px !important;
+        align-items: center;
+        height: 50%;
     }
 
     #sosmed-badge>button>img {
         width: 100%;
+        object-fit: contain;
     }
 
     .header-logo-1 img {
